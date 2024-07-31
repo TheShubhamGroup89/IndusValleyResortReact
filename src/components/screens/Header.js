@@ -45,7 +45,7 @@ function Header() {
             </div>
             <div className="xl:hidden flex items-center gap-2">
               <a
-                className="bg-[#434E57] text-sm md:text-xl text-white border-2 text-center border-yellow-600 duration-700 rounded-tr-2xl rounded-bl-2xl p-2 m-2 font-glacial"
+                className="bg-[#434E57] text-sm md:text-xl text-white border-2 text-center border-yellow-600 duration-700 rounded-tr-2xl rounded-bl-2xl p-2 m-2 font-merriweather"
                 href="https://wa.me/918744989989"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,50 +73,56 @@ function Header() {
             )}
             <div className="hidden xl:flex flex-row z-30 text-base px-4 gap-6 lg:gap-8">
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/"
               >
                 HOME
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/indus-valley-resort"
               >
                 ABOUT US
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/hillcrest-cafe-in-mukteshwar"
               >
                 DINING
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/cottages-for-stay-in-mukteshwar"
               >
                 STAY
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/gallery"
               >
                 GALLERY
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/amenities"
               >
                 AMENITIES
               </a>
               <a
-                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-french-canon"
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
                 href="/places-to-visit-in-mukteshwar"
               >
                 POINT OF INTEREST
               </a>
+              {/* <a
+                className="lg:hover:scale-110 duration-500 hover:text-yellow-600 py-3 font-merriweather"
+                href="/contact-indus-valley-resort"
+              >
+                REACH US
+              </a> */}
               <div className="flex gap-3 lg:gap-5 items-center">
                 <a
-                  className="bg-[#434E57] lg:hover:bg-white lg:hover:text-black text-white border-2 border-yellow-600 duration-700 rounded-tr-2xl rounded-bl-2xl p-3 font-glacial"
+                  className="bg-[#434E57] lg:hover:bg-white lg:hover:text-black text-white border-2 border-yellow-600 duration-700 rounded-tr-2xl rounded-bl-2xl p-3 font-merriweather"
                   href="/contact-indus-valley-resort"
                   aria-label="Book Now"
                 >
@@ -134,7 +140,7 @@ function Header() {
               </div>
             </div>
             <div
-              className={`xl:hidden flex flex-col fixed font-french-canon text-lg md:text-4xl bg-[#475357] text-white pt-8 md:pt-10 md:pl-5 lg:gap-5 bg-opacity-75 top-20 md:top-28 lg:top-32 w-full h-screen ${
+              className={`xl:hidden flex flex-col fixed font-merriweather text-lg md:text-4xl bg-[#475357] text-white pt-8 md:pt-10 md:pl-5 lg:gap-5 bg-opacity-75 top-20 md:top-28 lg:top-32 w-full h-screen ${
                 toggle ? "left-0" : "left-[-100%]"
               } duration-700`}
             >

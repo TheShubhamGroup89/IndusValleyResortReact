@@ -10,8 +10,8 @@ function NoticeBanner() {
   
     <div className='flex flex-col md:flex-row justify-center items-center md:gap-20 bg-red-500 bg-opacity-70'>
       
-          <h2 className='text-xl md:text-2xl lg:text-3xl font-times text-balance font-semibold text-white p-1'>
-       Monsoon Sale Of 30% Off * <span className='text-lg font-thin text-black font-serif'>(T&C apply)</span>
+          <h2 className='text-xl md:text-2xl lg:text-3xl font-merriweather text-balance font-semibold text-white p-1'>
+       Monsoon Sale 30% Off * <span className='text-lg font-thin text-black font-serif'>(T&C apply)</span>
       </h2>
       {/* <button
         onClick={handleButtonClick}

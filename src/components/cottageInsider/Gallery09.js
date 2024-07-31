@@ -9,6 +9,9 @@ import img3 from "../cottageInsider/IVR_09_1BHK/InnerView/iv3.webp";
 import img4 from "../cottageInsider/IVR_09_1BHK/InnerView/iv4.webp";
 import img5 from "../cottageInsider/IVR_09_1BHK/InnerView/iv5.webp";
 import img6 from "../cottageInsider/IVR_09_1BHK/InnerView/iv6.webp";
+import img7 from "../cottageInsider/IVR_09_1BHK/InnerView/iv7.webp";
+import img8 from "../cottageInsider/IVR_09_1BHK/InnerView/iv8.webp";
+
 
 function Gallery09() {
   const images = [
@@ -18,6 +21,9 @@ function Gallery09() {
     { src: img4, alt: "Bathroom with sleek fixtures and shower" },
     { src: img5, alt: "Dining area with table and chairs" },
     { src: img6, alt: "Outdoor view from inside the cottage" },
+    { src: img7, alt: "cottage outer view" },
+    { src: img8, alt: "outside view" },
+
   ];
 
   const settings = {

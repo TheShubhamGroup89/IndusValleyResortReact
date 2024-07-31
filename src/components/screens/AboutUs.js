@@ -48,7 +48,7 @@ function AboutUs() {
         <div className="flex flex-col gap-3 md:gap-0">
           <div className="md:pt-10 flex">
             <img className="h-28 md:h-32" src={pic1} alt="leaf" />
-            <h1 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-french-canon text-center">
+            <h1 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-merriweather text-center">
               <span className="py-5 pr-5 text-[#40392d]">
                 Indus Valley Homestay: Your Perfect Retreat in Mukteshwar
               </span>
@@ -56,18 +56,18 @@ function AboutUs() {
           </div>
           <div className="flex flex-col gap-5 p-3 md:pb-10 shadow-lg">
             <section className="flex flex-col gap-5 md:xl-16 px-3">
-              <p className="hover:shadow-md text-lg md:text-2xl md:px-3 font-serif text-justify">
+              <p className="hover:shadow-md text-base md:text-xl md:px-3 font-merriweather text-justify">
                 Indus Valley Homestay, the best hotel in Mukteshwar, offers a peaceful retreat with breathtaking panoramic views of the Nanda Devi Himalayas. This resort combines modern comforts with rustic charm, providing cozy rooms and delicious food. As an ideal homestay, it's perfect for both relaxation and adventure.
               </p>
               <div className="flex gap-0">
                 <img className="h-28 w-20" src={pic1} alt="leaf" />
-                <p className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-french-canon text-center">
-                  <span className="py-5 pr-5 text-[#40392d] font-semibold">
+                <p className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-merriweather text-center">
+                  <span className="py-5 pr-5 text-[#40392d]">
                     Accommodations and Amenities:
                   </span>
                 </p>
               </div>
-              <ol className="flex flex-col gap-3 mx-auto md:pb-5 w-full md:w-5/6 text-lg font-glacial md:text-2xl">
+              <ol className="flex flex-col gap-3 mx-auto md:pb-5 w-full md:w-5/6 text-base font-merriweather md:text-xl">
                 <li className="flex flex-col bg-opacity-80 p-2 rounded-xl gap-5">
                   <span className="text-[#40392d] font-semibold">
                     &#10146; Cozy Rooms and Villas:
@@ -105,32 +105,32 @@ function AboutUs() {
               </ol>
               <div className="flex gap-0">
                 <img className="h-28 w-20" src={pic1} alt="leaf" />
-                <p className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-french-canon text-center">
+                <p className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-merriweather text-center">
                   <span className="pb-10 pr-5 text-[#40392d]">Activities:</span>
                 </p>
               </div>
-              <p className="hover:shadow-md text-lg md:text-2xl md:px-3 font-serif text-justify">
+              <p className="hover:shadow-md text-base md:text-xl md:px-3 font-merriweather text-justify">
                 Guests can enjoy trekking, bird watching, exploring lush orchards, and visiting local attractions like Mukteshwar Temple, Chauli Ki Jali, and Bhalu Gaad Waterfalls. Additionally, there's a 5-10 km trek path available from the resort leading towards a forest and a beautiful small lake.
               </p>
               <div className="flex gap-0">
                 <img className="h-28 w-20" src={pic1} alt="leaf" />
-                <h2 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-french-canon text-center">
+                <h2 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-merriweather text-center">
                   <span className="pb-10 pr-5 text-[#40392d]">Hillcrest Cafe:</span>
                 </h2>
               </div>
-              <p className="hover:shadow-md text-lg md:text-2xl md:px-3 font-serif text-justify">
+              <p className="hover:shadow-md text-base md:text-xl md:px-3 font-merriweather text-justify">
                 Hillcrest Cafe, the best cafe and a standout eatery in Mukteshwar, offers a delightful dining experience with panoramic views of the Nanda Devi Himalayas. As a premier restaurant in Mukteshwar, guests can savor a variety of delicious local and Indian dishes made from fresh, locally sourced ingredients. The cozy ambiance and stunning scenery makes Hillcrest Cafe the perfect spot to relax and enjoy a memorable meal during your stay in Mukteshwar Nainital. We at Indus Valley Resort are proud to be the <a href="/hillcrest-cafe-in-mukteshwar">best restaurant in Mukteshwar</a>, serving delicious food in an amazing location.
               </p>
               <div className="flex gap-0">
                 <img className="h-28 w-20" src={pic1} alt="leaf" />
-                <h3 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-french-canon text-center">
+                <h3 className="w-fit flex justify-center items-end mx-auto text-2xl md:text-4xl tracking-wider font-merriweather text-center">
                   <span className="py-5 pr-5 text-[#40392d]">Events and Celebrations:</span>
                 </h3>
               </div>
-              <p className="hover:shadow-md text-lg md:text-2xl md:px-3 font-serif text-justify">
+              <p className="hover:shadow-md text-base md:text-xl md:px-3 font-merriweather text-justify">
                 Indus Valley Mukteshwar Homestay offers a range of top-notch services and amenities to ensure a memorable stay. Guests can take advantage of the best venue in Mukteshwar for hosting events. This versatile event place in Mukteshwar serves as an ideal celebration venue and party place. Whether you're planning a special celebration or a casual get-together, our facilities provide the perfect setting.
               </p>
-              <p className="hover:shadow-md text-lg md:text-2xl md:px-3 font-serif text-justify">
+              <p className="hover:shadow-md text-base md:text-xl md:px-3 font-merriweather text-justify">
                 Indus Valley Homestay in Mukteshwar is the perfect spot for people who feel at home amidst nature and outdoor enthusiasts. With its blend of comfort, adventure, and stunning Himalayan scenery, your stay in Mukteshwar Nainital promises to be truly unforgettable. Come and experience the best of Mukteshwar with us!
               </p>
             </section>

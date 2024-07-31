@@ -23,7 +23,7 @@ const BannerP4 = () => {
       className="min-h-[400px] bg-cover bg-center flex justify-center items-center p-5"
       style={{ backgroundImage: `url(${imageUrls[backgroundIndex]})` }}
     >
-      <h1 className=" text-white text-2xl md:text-6xl font-french-canon p-2 text-center md:p-4 rounded-xl ">
+      <h1 className=" text-white text-2xl md:text-6xl font-merriweather p-2 text-center md:p-4 rounded-xl ">
       GALLERY
         {/* <Link to="/">
           <span className=" text-lg md:text-xl bg-[#434E57] md:hover:bg-white md:hover:text-black text-white border-2 border-yellow-600 duration-700 rounded-tr-2xl rounded-bl-2xl p-1 font-glacial">HOME</span>

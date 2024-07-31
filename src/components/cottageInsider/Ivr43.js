@@ -30,12 +30,16 @@ function Ivr43() {
         />
       </Helmet>
       <section className="bg-[#d2d2b4] bg-cover md:bg-opacity-90 text-[#40392d]">
+      <h3 className=" text-3xl md:text-4xl  font-merriweather md:py-10 text-center p-3">
+        4 BHK COTTAGE FOR
+        STAY
+        <br />
+        Plot No - 43
+        <br />
+      </h3>
         <Banner43 />
         {/* <h1 className="sr-only">4 BHK cottage in Nainital</h1> */}
-        <h1 className="text-2xl md:pt-20 pt-10 md:text-4xl text-center font-french-canon">
-          <span className="font-sans font-semibold">4 </span>BHK COTTAGE FOR
-          STAY
-        </h1>
+  
         <h5 className="text-3xl md:text-4xl  font-french-canon p-10 text-center">
           ROOMS DETAILS
         </h5>

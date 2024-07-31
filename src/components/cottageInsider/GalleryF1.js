@@ -5,12 +5,21 @@ import "slick-carousel/slick/slick-theme.css";
 import { Avatar } from "@material-tailwind/react";
 import img1 from "../cottageInsider/IVR_F1/iv1.webp";
 import img2 from "../cottageInsider/IVR_F1/iv2.webp";
-import img3 from "../cottageInsider/IVR_F1/iv3.webp";
+import img3 from "../cottageInsider/IVR_F1/iv3.jpg";
 import img4 from "../cottageInsider/IVR_F1/iv4.webp";
 import img5 from "../cottageInsider/IVR_F1/iv5.webp";
-import img6 from "../cottageInsider/IVR_F1/iv6.webp";
-import img7 from "../cottageInsider/IVR_F1/iv7.webp";
+import img6 from "../cottageInsider/IVR_F1/iv6.jpg";
+import img7 from "../cottageInsider/IVR_F1/iv7.jpg";
 import img8 from "../cottageInsider/IVR_F1/iv8.webp";
+import img9 from "../cottageInsider/IVR_F1/iv9.jpg";
+import img12 from "../cottageInsider/IVR_F1/iv12.jpg";
+import img13 from "../cottageInsider/IVR_F1/iv13.jpg";
+import img14 from "../cottageInsider/IVR_F1/iv14.jpg";
+import img15 from "../cottageInsider/IVR_F1/iv15.jpg";
+import img16 from "../cottageInsider/IVR_F1/iv16.jpg";
+
+
+
 
 
 
@@ -18,7 +27,7 @@ import img8 from "../cottageInsider/IVR_F1/iv8.webp";
 
 
     const images = [
-      img1, img2, img3, img4, img5, img6, img7, img8
+      img1, img2, img3, img4, img5, img6, img7, img8, img9, img12, img13, img14, img15, img16
   ];
 
   const settings = {

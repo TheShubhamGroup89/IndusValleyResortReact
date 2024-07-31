@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       {/* <CompanyDetail/> */}
       <div style={{ backgroundImage: `url(${bgContact})`}} className="bg-cover mt-5 md:mt-0 flex flex-col justify-center items-center mx-auto bg-center pt-14 md:pb-20 pb-0 md:p-10">
-      <h2 className="animate__zoomIn text-xl md:text-4xl text-center px-3 bg-white bg-opacity-45 rounded-xl justify-center  font-french-canon ">
+      <h2 className="animate__zoomIn text-xl md:text-4xl text-center px-3 bg-white bg-opacity-45 rounded-xl justify-center  font-merriweather ">
       Come and engage in the peace, beauty, and atmosphere of Mukteshwar
       </h2>
       {/* <p className="text-lg md:text-2xl font-mono my-2 mx-5 px-3 bg-white bg-opacity-35 rounded-xl text-center">

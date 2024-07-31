@@ -1,4 +1,8 @@
-import { Carousel, IconButton } from "@material-tailwind/react";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Avatar } from "@material-tailwind/react";
 import img1 from "../cottageInsider/IVR_10_2BKH/iv1.jpg";
 import img2 from "../cottageInsider/IVR_10_2BKH/iv2.jpg";
 import img3 from "../cottageInsider/IVR_10_2BKH/iv3.jpg";
@@ -14,251 +18,46 @@ import img12 from "../cottageInsider/IVR_10_2BKH/iv12.jpg";
 import img13 from "../cottageInsider/IVR_10_2BKH/iv13.jpg";
 import img14 from "../cottageInsider/IVR_10_2BKH/iv14.jpg";
 import img15 from "../cottageInsider/IVR_10_2BKH/iv15.jpg";
-import img16 from "../cottageInsider/IVR_10_2BKH/iv16.jpg";
-import img17 from "../cottageInsider/IVR_10_2BKH/iv17.jpg";
-import img18 from "../cottageInsider/IVR_10_2BKH/iv18.jpg";
-import img19 from "../cottageInsider/IVR_10_2BKH/iv19.jpg";
-import img20 from "../cottageInsider/IVR_10_2BKH/iv20.jpg";
-import img21 from "../cottageInsider/IVR_10_2BKH/iv21.jpg";
+
 
 
   function Gallery10() {
 
 
-    const theme = {
-      carousel: {
-        defaultProps: {
-          prevArrow: ({ loop, handlePrev, firstIndex }) => {
-            return (
-              <button
-                onClick={handlePrev}
-                disabled={!loop && firstIndex}
-                className="!absolute top-2/4 left-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
-              >
-                
-              </button>
-            );
-          },
-          nextArrow: ({ loop, handleNext, lastIndex }) => (
-            <button
-              onClick={handleNext}
-              disabled={!loop && lastIndex}
-              className="!absolute top-2/4 right-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
-            >
-           
-            </button>
-          ),
-          navigation: ({ setActiveIndex, activeIndex, length }) => (
-            <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
-              {new Array(length).fill("").map((_, i) => (
-                <span
-                  key={i}
-                  className={`block h-3 w-3 cursor-pointer rounded-full transition-colors content-[''] ${
-                    activeIndex === i ? "bg-white" : "bg-white/50"
-                  }`}
-                  onClick={() => setActiveIndex(i)}
-                />
-              ))}
-            </div>
-          ),
-          autoplay: true,
-          autoplayDelay: 5000,
-          transition: {
-            type: "tween",
-            duration: 0.5,
-          },
-          loop: true,
-          className: "",
-        },
-        styles: {
-          base: {
-            carousel: {
-              position: "relative",
-              width: "w-full",
-              height: "h-full",
-              overflowX: "overflow-x-hidden",
-              display: "flex",
-            },
-     
-            slide: {
-              width: "w-full",
-              height: "h-full",
-              display: "inline-block",
-              flex: "flex-none",
-            },
-          },
-        },
-      },
-    };
+    const images = [
+      img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15,
+  ];
 
-  return (
-    <div className="flex flex-col justify-center gap-5 p-3">
-           <h2 className="text-3xl md:text-5xl text-center py-5 md:py-10  font-french-canon">
-        GALLERY
-        </h2>
+  const settings = {
+    autoplay: true,
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    accessibility: true, // Enable keyboard navigation
+    focusOnSelect: true  // Enable focusing on selected slide
+};
 
-          <Carousel
-    className="rounded-xl items-center"
-    autoplay={true}
-    autoplayDelay={3000}
-    loop={true}
-      prevArrow={({ handlePrev }) => (
-        <IconButton
-          variant="text"
-          color="white"
-          size="lg"
-          onClick={handlePrev}
-          className="!absolute top-2/4 left-3 -translate-y-2/4"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={4}
-            stroke="currentColor"
-            className="h-6 w-6 text-black "
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-            />
-          </svg>
-        </IconButton>
-      )}
-      nextArrow={({ handleNext }) => (
-        <IconButton
-          variant="text"
-          color="white"
-          size="lg"
-          onClick={handleNext}
-          className="!absolute top-2/4 !right-4 -translate-y-2/4"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={4}
-            stroke="currentColor"
-            className="h-6 w-6 text-black "
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-            />
-          </svg>
-        </IconButton>
-      )}
-    >
-      <img
-        src={img1}
-        alt="img 1"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img2}
-        alt="img 2"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-   
-      <img
-        src={img3}
-        alt="img 3"
-        className="md:h-[450px] xl:h-[500px] w-fit  mx-auto object-cover"
-      />
-      <img
-        src={img4}
-        alt="img 4"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img5}
-        alt="img 5"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img6}
-        alt="img 6"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img7}
-        alt="img 7"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img8}
-        alt="img 8"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-      <img
-        src={img9}
-        alt="img 9"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img10}
-        alt="img 10"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img11}
-        alt="img 11"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img12}
-        alt="img 12"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img13}
-        alt="img 13"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img14}
-        alt="img 14"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img15}
-        alt="img 15"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img16}
-        alt="img 16"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img17}
-        alt="img 17"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img18}
-        alt="img 18"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img19}
-        alt="img 19"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img20}
-        alt="img 20"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-       <img
-        src={img21}
-        alt="img 21"
-        className="md:h-[450px] xl:h-[500px] w-fit mx-auto object-cover"
-      />
-    </Carousel>
-
+return (
+    <div className="w-full">
+           <div className="py-5">
+               <h3 className="w-fit text-[#d2d2b4] md:text-[#40392d] mx-auto text-2xl md:text-4xl tracking-widest py-5 font-french-canon text-center ">
+            GALLERY
+        </h3>
+        <div className="md:py-10 px-6 md:mx-14">
+            <Slider {...settings} className="md:w-11/12 lg:w-4/5 m-auto">
+                {images.map((img, index) => (
+                    <Avatar
+                        key={index}
+                        src={img}
+                        alt={`Gallery image ${index + 1}`}
+                        className="h-52 md:h-[500px] w-fit mx-auto rounded-tr-3xl rounded-bl-3xl object-cover"
+                    />
+                ))}
+            </Slider>
+        </div>
+        </div>
     </div>
   
   );

@@ -31,12 +31,15 @@ function Ivr69() {
       </Helmet>
 
       <section className="bg-[#d2d2b4] bg-cover md:bg-opacity-90 text-[#40392d]">
+      <h3 className=" text-3xl md:text-4xl  font-merriweather md:py-10 text-center p-3">
+        1 BHK APARTMENT FOR
+        STAY
+        <br />
+        Plot No - 69
+        <br />
+      </h3>
         <Banner69 />
         {/* <h1 className="sr-only">1 BHK Apartment homestay In Mukteshwar</h1> */}
-        <h1 className="text-2xl md:pt-20 pt-10 md:text-4xl text-center   font-french-canon">
-          <span className="font-sans font-semibold">1 </span>BHK APARTMENT FOR
-          STAY
-        </h1>
         <p className="text-3xl md:text-4xl  font-french-canon p-10  text-center">
           FACILITIES
         </p>

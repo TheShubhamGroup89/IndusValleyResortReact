@@ -55,7 +55,7 @@ function NearBy() {
 
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Forest Trekking
               </h2>
               <p className="text-lg md:text-2xl font-times">0 KM</p>
@@ -72,7 +72,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Bhalu Gaad Waterfall
               </h2>
               <p className="text-lg md:text-2xl font-times">12 KM</p>
@@ -89,7 +89,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center text-center items-center">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Mahadev Temple
               </h2>
               <p className="text-lg md:text-2xl font-times">15 KM</p>
@@ -106,7 +106,7 @@ function NearBy() {
 
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Satkhol Ashram
               </h2>
               <p className="text-lg md:text-2xl font-times">26 KM</p>
@@ -123,7 +123,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">Bhimtal</h2>
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">Bhimtal</h2>
               <p className="text-lg md:text-2xl font-times">31 KM</p>
             </div>
           </div>
@@ -138,7 +138,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Paragliding Adventure
               </h2>
               <p className="text-lg md:text-2xl font-times">35 KM</p>
@@ -156,7 +156,7 @@ function NearBy() {
 
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Mall Road Nainital
               </h2>
               <p className="text-lg md:text-2xl font-times">46 KM</p>
@@ -173,7 +173,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">Almora</h2>
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">Almora</h2>
               <p className="text-lg md:text-2xl font-times">59 KM</p>
             </div>
           </div>
@@ -188,7 +188,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 Jageshwar Dham
               </h2>
               <p className="text-lg md:text-2xl font-times">65 KM</p>
@@ -206,7 +206,7 @@ function NearBy() {
 
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h2 className=" text-2xl text-[#40392d] font-glacial">
+              <h2 className=" text-2xl text-[#40392d] font-merriweather">
                 RaniKhet
               </h2>
               <p className="text-lg md:text-2xl font-times">80 KM</p>
@@ -223,7 +223,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h3 className=" text-2xl text-[#40392d] font-glacial">Binsar</h3>
+              <h3 className=" text-2xl text-[#40392d] font-merriweather">Binsar</h3>
               <p className="text-lg md:text-2xl font-times">80 KM</p>
             </div>
           </div>
@@ -238,7 +238,7 @@ function NearBy() {
           />
           <div>
             <div className="flex flex-col justify-center items-center p-1">
-              <h3 className=" text-2xl text-[#40392d] font-glacial">Kausani</h3>
+              <h3 className=" text-2xl text-[#40392d] font-merriweather">Kausani</h3>
               <p className="text-lg md:text-2xl font-times">108 KM</p>
             </div>
           </div>

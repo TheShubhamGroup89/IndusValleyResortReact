@@ -28,7 +28,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-white shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img1} alt="Card1" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Forest Trekking
             </h2>
             <p className="text-lg md:text-xl font-times">0 KM</p>
@@ -39,7 +39,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img2} alt="Card2" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Bhalu Gaad Waterfall
             </h2>
             <p className="text-lg md:text-xl font-times">12 KM</p>
@@ -50,7 +50,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img3} alt="Card3" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Mahadev Temple
             </h2>
             <p className="text-lg md:text-xl font-times">15 KM</p>
@@ -61,7 +61,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img4} alt="Card4" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Satkhol Ashram
             </h2>
             <p className="text-lg md:text-xl font-times">26 KM</p>
@@ -72,7 +72,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img5} alt="Card5" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Paragliding Adventure
             </h2>
             <p className="text-lg md:text-xl font-times">35 KM</p>
@@ -83,7 +83,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img6} alt="Card6" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Bhimtal
             </h2>
             <p className="text-lg md:text-xl font-times">31 KM</p>
@@ -94,7 +94,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img7} alt="Card7" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Mall Road Nainital
             </h2>
             <p className="text-lg md:text-xl font-times">46 KM</p>
@@ -105,7 +105,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img8} alt="Card8" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Almora
             </h2>
             <p className="text-lg md:text-xl font-times">59 KM</p>
@@ -116,7 +116,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img9} alt="Card9" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Jageshwar Dham
             </h2>
             <p className="text-lg md:text-xl font-times">65 KM</p>
@@ -127,7 +127,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img10} alt="Card10" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               RaniKhet
             </h2>
             <p className="text-lg md:text-xl font-times">80 KM</p>
@@ -138,7 +138,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img11} alt="Card11" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Binsar
             </h2>
             <p className="text-lg md:text-xl font-times">80 KM</p>
@@ -149,7 +149,7 @@ function NearBy() {
         <div className="max-w-md w-full mx-auto rounded-xl border-2 bg-gradient-to-r from-[#D61F62] to-[#c7f2c1] shadow-lg shadow-slate-200 animate__zoomIn3">
           <img className="rounded-t-xl w-full h-64 object-cover" src={img12} alt="Card12" />
           <div className="p-4">
-            <h2 className="text-2xl text-green-800 font-glacial">
+            <h2 className="text-2xl text-green-800 font-merriweather">
               Kausani
             </h2>
             <p className="text-lg md:text-xl font-times">108 KM</p>

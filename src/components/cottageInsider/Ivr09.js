@@ -29,17 +29,20 @@ function Ivr09() {
       </Helmet>
 
       <section className="bg-[#d2d2b4] bg-cover md:bg-opacity-90 text-[#40392d]">
+      <h3 className=" text-3xl md:text-4xl  font-merriweather md:py-10 text-center p-3">
+        1 BHK STAY IN
+        MUKTESHWAR
+        <br />
+        Plot No - 09
+        <br />
+      </h3>
         <Banner09 />
         {/* <h1 className="sr-only">1 BHK Apartment homestay In Mukteshwar</h1> */}
-        <h1 className="text-2xl md:pt-20 pt-10 md:text-4xl text-center   font-french-canon">
-          <span className="font-sans font-semibold">1 </span>BHK STAY IN
-          MUKTESHWAR
-        </h1>
-        <p className="text-3xl md:text-4xl  font-french-canon p-10  text-center">
+        <p className="text-3xl md:text-4xl  font-merriweather p-10  text-center">
           FACILITIES
         </p>
         <div className=" flex flex-col md:flex-row justify-center gap-3 md:gap-16 md:px-20">
-          <ol className="flex flex-col  gap-3 px-5 md:py-5 w-full md:w-2/3  xl:w-1/3 text-lg font-times md:text-2xl">
+          <ol className="flex flex-col  gap-3 px-5 md:py-5 w-full md:w-2/3  xl:w-1/3 text-lg font-merriweather md:text-2xl">
            <li className="flex animate__zoomIn3  p-2 gap-5 text-[#394422]  md:hover:text-yellow-50 ">
               <span> &#10146;</span> ROOM DINING
             </li>
@@ -55,7 +58,7 @@ function Ivr09() {
             </li>
           </ol>
 
-          <ol className="flex flex-col  gap-3 px-5 md:py-5 w-full md:w-2/3  xl:w-1/3 text-lg font-times md:text-2xl">
+          <ol className="flex flex-col  gap-3 px-5 md:py-5 w-full md:w-2/3  xl:w-1/3 text-lg font-merriweather md:text-2xl">
            <li className="flex animate__zoomIn3  p-2 gap-5 text-[#394422]  md:hover:text-yellow-50 ">
               <span> &#10146;</span> FREE TOIETRIES
             </li>
@@ -76,7 +79,7 @@ function Ivr09() {
       </section>
 
       <section className="py-5 flex flex-col justify-center items-center mt-0 pb-5 bg-[#d2d2b4] bg-cover md:bg-opacity-90 text-[#40392d]">
-        {/* <h3 className="text-2xl md:text-4xl  font-french-canon my-10 md:mb-16 text-center">
+        {/* <h3 className="text-2xl md:text-4xl  font-merriweather my-10 md:mb-16 text-center">
           YOUTUBE LINK
         </h3>
 

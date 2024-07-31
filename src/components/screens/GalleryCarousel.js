@@ -47,10 +47,10 @@ function GalleryCarousel() {
 
   return (
     <div className="flex flex-col justify-center gap-5 p-3">
-      <h3 className="text-3xl md:text-5xl text-center pt-5 md:pt-10  font-french-canon">
+      <h3 className="text-3xl md:text-5xl text-center pt-5 md:pt-10  font-merriweather">
         GALLERY
       </h3>
-      <h2 className="text-xl md:text-3xl text-center pb-5 tracking-wider font-french-canon">
+      <h2 className="text-xl md:text-3xl text-center pb-5 tracking-wider font-merriweather">
         RESORT IN MUKTESHWAR
       </h2>
 

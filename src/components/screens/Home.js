@@ -9,6 +9,7 @@ import Banner2 from "./Banner2";
 import HomeStay from "./HomeStay";
 import BookNowBanner from "./BookNowBanner";
 import HomeYoutubeLink from "./HomeYoutubeLink";
+import { Helmet } from "react-helmet";
 
 function Home() {
   const containerRef = useRef(null);
@@ -32,6 +33,17 @@ function Home() {
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
     }}>
+       <Helmet>
+        <title>Indus Valley Resort</title>
+        <meta
+          name="description"
+          content=" Stay at the finest resort in Mukteshwar or a cozy homestay. Dine at our top restaurant for an unforgettable eatery experience. We serve the best food in Mukteshwar"
+        />
+        <link
+          rel="canonical"
+          href="https://www.indusvalleyresort.com/about-us"
+        />
+      </Helmet>
       <Banner2 />
       <BookNowBanner />
       <AboutBanner />

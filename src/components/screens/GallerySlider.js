@@ -62,7 +62,7 @@ function GallerySlider() {
   return (
     <div className="w-full md:bg-[#d2d2b4] bg-cover md:bg-opacity-80">
       <div className="py-5">
-        <h3 className="w-fit text-[#d2d2b4] md:text-[#40392d] mx-auto text-2xl md:text-4xl tracking-widest py-5 font-berkshire text-center">
+        <h3 className="w-fit text-[#d2d2b4] md:text-[#40392d] mx-auto text-2xl md:text-4xl tracking-widest py-5 font-merriweather text-center">
           Gallery
         </h3>
         <div className="md:py-10 md:mx-14">

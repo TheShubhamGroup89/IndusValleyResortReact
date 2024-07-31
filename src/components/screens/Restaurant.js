@@ -36,7 +36,7 @@ const Restaurant = () => {
     >
       <Helmet>
         <title>
-          Best Restaurant In Mukteshwar- Finest Cafe & Eatery In Town
+        Resort in Mukteshwar
         </title>
         <meta
           name="description"

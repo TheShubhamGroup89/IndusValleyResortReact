@@ -36,7 +36,7 @@ function Property2() {
 
       {/* (Project Component-1) */}
       <div className="flex flex-col gap-0 ">
-        <section className="grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3  place-content-center gap-10 md:gap-16 p-5 md:py-10 mx-auto ">
+        <section className="grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3  place-content-center gap-5 md:gap-0 mx-auto ">
           {/* ....(1.1).... */}
           <div
           // style={{
@@ -60,7 +60,7 @@ function Property2() {
               }}
               className="w-fit md:w-96 rounded-xl border-2 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200"
             > */}
-            <div className="relative w-fit md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl border-2 md:hover:scale-95 duration-700 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
+            <div className="relative w-fit md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl border-2 md:scale-75 duration-700 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
               <a
                 href="/1-bhk-cottage-stay-in-mukteshwar"
                 // target="_blank"
@@ -76,7 +76,7 @@ function Property2() {
                 <div>
                   <div className="mx-auto border-b-2 border-gray-600 my-2 p-3">
                     <h2 className=" text-xl md:text-2xl text-center text-green-800 font-times font-semibold">
-                      IVR - 42
+                      IVH - 42
                     </h2>
                     <p className="text-2xl md:text-3xl text-center font-bold font-times">
                       1 BHK COTTAGE
@@ -97,7 +97,7 @@ function Property2() {
                         Explore
                       </button>
                     </a> */}
-                      <a href="/booknow" target="_blank" rel="noreferrer">
+                      <a href="/contact-indus-valley-resort" target="_blank" rel="noreferrer">
                         <button className="animate__zoomIn3 bg-gradient-to-r from-yellow-300 to-yellow-600 border-green-900 text-black p-2 rounded-lg font-bold border-2 text-lg py-1 md:text-2xl hover:text-white ">
                           BOOK NOW
                         </button>
@@ -132,7 +132,7 @@ function Property2() {
               }}
               className="w-fit md:w-96 rounded-xl border-2 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200"
             > */}
-            <div className="relative w-fit md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl border-2 md:hover:scale-95 duration-700 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
+            <div className="relative w-fit md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl border-2 md:scale-75 duration-700 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
               <a
                 href="/1-bhk-apartment-homestay-near-nainital"
                 // target="_blank"
@@ -148,7 +148,7 @@ function Property2() {
                 <div>
                   <div className="mx-auto border-b-2 border-gray-600 my-2 p-3">
                     <h2 className=" text-xl md:text-2xl text-center text-green-800 font-times font-semibold">
-                      IVR - 09
+                      IVH - 09
                     </h2>
                     <p className="text-2xl md:text-3xl text-center font-bold font-times">
                       1 BHK APARTMENT
@@ -169,7 +169,7 @@ function Property2() {
                         Explore
                       </button>
                     </a> */}
-                      <a href="/booknow" target="_blank" rel="noreferrer">
+                      <a href="/contact-indus-valley-resort" target="_blank" rel="noreferrer">
                         <button className="animate__zoomIn3 bg-gradient-to-r from-yellow-300 to-yellow-600 border-green-900 text-black p-2 rounded-lg font-bold border-2 text-lg py-1 md:text-2xl hover:text-white ">
                           BOOK NOW
                         </button>
@@ -204,7 +204,7 @@ function Property2() {
               className="w-fit md:w-96 rounded-xl border-2 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200"
             > */}
 
-            <div className="relative w-fit  md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl md:hover:scale-95 duration-700  border-2 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
+            <div className="relative w-fit  md:w-80 xl:w-96 rounded-tr-3xl rounded-bl-3xl md:scale-75 duration-700  border-2 shadow-lg md:m-3 bg-gradient-to-r from-green-200 to-neutral-400 shadow-slate-200">
               <a
                 href="/1-bhk-apartment-stay-in-mukteshwar"
                 // target="_blank"
@@ -221,7 +221,7 @@ function Property2() {
                 <div>
                   <div className="mx-auto border-b-2 border-gray-600 my-2 p-3">
                     <h2 className=" text-xl md:text-2xl text-center text-green-800 font-times font-semibold">
-                      IVR - 69
+                      IVH - 69
                     </h2>
                     <p className="text-2xl md:text-3xl font-bold text-center font-times">
                       1 BHK APARTMENT
@@ -242,7 +242,7 @@ function Property2() {
                         Explore
                       </button>
                     </a> */}
-                      <a href="/booknow" target="_blank" rel="noreferrer">
+                      <a href="/contact-indus-valley-resort" target="_blank" rel="noreferrer">
                         <button className="animate__zoomIn3 bg-gradient-to-r from-yellow-300 to-yellow-600 border-green-900 text-black p-2 rounded-lg font-bold border-2 text-lg py-1 md:text-2xl hover:text-white ">
                           BOOK NOW
                         </button>
@@ -265,7 +265,7 @@ function Property2() {
             <div>
               <div className="mx-auto border-b-2 border-green-300 my-2 p-3">
                 <h2 className=" text-xl md:text-2xl text-green-800 font-times font-semibold">
-                  IVR - 36
+                  IVH - 36
                 </h2>
                 <p className="text-2xl md:text-3xl font-bold font-times">
                   1 BHK APARTMENT
@@ -308,7 +308,7 @@ function Property2() {
             <div>
               <div className="mx-auto border-b-2 border-green-300 my-2 p-3">
                 <h2 className=" text-xl md:text-2xl text-green-800 font-times font-semibold">
-                IVR - 46
+                IVH - 46
                 </h2>
                 <p className="text-2xl md:text-3xl font-bold font-times">
                 2BHK COTTAGE
@@ -341,7 +341,7 @@ function Property2() {
             <div>
               <div className="mx-auto border-b-2 border-green-300 my-2 p-3">
                 <h2 className=" text-xl md:text-2xl text-green-800 font-times font-semibold">
-                IVR - 47
+                IVH - 47
                 </h2>
                 <p className="text-2xl md:text-3xl font-bold font-times">
                 2BHK COTTAGE
@@ -374,7 +374,7 @@ function Property2() {
             <div>
               <div className="mx-auto border-b-2 border-green-300 my-2 p-3">
                 <h2 className=" text-3xl text-green-800 font-times font-semibold">
-                IVR - 47
+                IVH - 47
                 </h2>
                 <p className="text-xl md:text-2xl font-times">
                 (2BHK COTTAGE)
@@ -407,7 +407,7 @@ function Property2() {
             <div>
               <div className="mx-auto border-b-2 border-green-300 my-2 p-3">
                 <h2 className=" text-3xl text-green-800 font-times font-semibold">
-                IVR - 47
+                IVH - 47
                 </h2>
                 <p className="text-xl md:text-2xl font-times">
                 (2BHK COTTAGE)

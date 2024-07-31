@@ -65,13 +65,13 @@ const Banner2 = () => {
         ></div>
       </div>
       <div className="flex justify-center items-center m-auto text-white bg-gradient-to-r from-transparent via-neutral-500 to-transparent  w-full absolute top-10 md:top-20 mx-auto">
-        <p className="text-xl md:text-6xl tracking-wide p-2 font-magnolia text-center">
-          8000 <span className="font-courgette text-xl md:text-5xl"> FEET</span>
+        <p className="text-lg md:text-5xl tracking-wide p-2 font-merriweather text-center">
+          8000  FEET
         </p>
-        <p className="text-lg md:text-5xl tracking-wide p-2 font-courgette text-center ">
-          ABOVE <span className="font-magnolia"> the</span>
+        <p className="text-lg md:text-5xl tracking-wide p-2 font-merriweather text-center ">
+          ABOVE THE
         </p>
-        <p className="text-lg md:text-5xl tracking-wide p-2 font-courgette text-center ">
+        <p className="text-lg md:text-5xl tracking-wide p-2 font-merriweather text-center ">
           ORDINARY
         </p>
       </div>

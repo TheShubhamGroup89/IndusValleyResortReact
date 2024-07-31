@@ -28,7 +28,7 @@ function BookNowForm() {
         /> */}
       </Helmet>
       <p className="animate__zoomIn text-2xl md:text-5xl text-center px-3 bg-white bg-opacity-35 rounded-xl justify-center font-serif p-5 ">
-        PAYMENTS IN FAVOUR OF : SUBHAM BUILDTECH LLP
+        PAYMENTS IN FAVOUR OF : SHUBHAM BUILDTECH LLP
       </p>
 
       <section className="w-full flex flex-col md:flex-row md:mx-auto p-5 md:backdrop:pt-14 rounded-xl md:gap-10 bg-black bg-opacity-30">
@@ -63,9 +63,9 @@ function BookNowForm() {
               </a>
               <a
                 className="text-base md:text-xl font-semibold text-white w-fit pl-0 md:p-3font-semibold hover:text-blue-400 "
-                href="mailto:ivmr@tsgoc.in"
+                href="mailto:info@theshubhamgroup.com"
               >
-                EMAIL : {"ivmr@tsgoc.in"}
+                EMAIL : {"info@theshubhamgroup.com"}
               </a>
             </div>
 
@@ -83,7 +83,7 @@ function BookNowForm() {
                   className="hover:text-yellow-300 hover:underline"
                   href={`tel:${phoneNumber}`}
                 >
-                  <span className="text-yellow-400">8744</span> 989 989
+                  8744 989 989
                 </a>
               </p>
               {/* <a href={`tel:${phoneNumber}`}>{phoneNumber}</a> */}

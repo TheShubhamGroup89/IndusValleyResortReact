@@ -92,7 +92,7 @@ function Gallery() {
   return (
     <div className="bg-cover" style={{ backgroundImage: `url(${bg2})` }}>
       <div>
-        <h1 className="text-3xl md:text-5xl text-[#bb9349] w-fit mx-auto md:pt-16  font-french-canon text-center p-5">
+        <h1 className="text-3xl md:text-5xl text-[#bb9349] w-fit mx-auto md:pt-16  font-merriweather text-center p-5">
           GALLERY/
           <Link to="/">
             <span className="text-lg md:text-xl text-[#40392d] bg-[#d2d2b4] hover:text-red-600 px-2 hover:bg-white">

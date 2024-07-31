@@ -35,7 +35,7 @@ function Properties() {
     }}>
       <Helmet>
         <title>
-          Homestay In Mukteshwar Near Nainital | Indus Valley Resort
+        Homestay in Mukteshwar
         </title>
         <meta
           name="description"

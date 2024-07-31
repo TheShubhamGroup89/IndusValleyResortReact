@@ -22,9 +22,9 @@ function ContactAddress() {
               </a>
               <a
                 className="text-base md:text-xl font-semibold text-white w-fit pl-0 md:p-3font-semibold hover:text-blue-400 "
-                href="mailto:ivmr@tsgoc.in"
+                href="mailto:info@theshubhamgroup.com"
               >
-                {"ivmr@tsgoc.in "}
+                {"info@theshubhamgroup.com"}
               </a>
             </div>
             <div className="flex gap-3 md:gap-5 p-3 px-5 md:p-0 items-center">
@@ -103,7 +103,7 @@ function ContactAddress() {
       <iframe className="text-3xl md:text-4xl w-full md:w-1/2 md:p-10 text-white rounded-2xl font-semibold font-serif"
       title='CRM-Form'
         id="Contact_Form"
-        src="https://account.solidperformers.com/capture_form_data/OTM3"
+       src="https://account.solidperformers.com/capture_form_data/MTIzOA=="
         border="0"
         style={{ border: 0, height: "400px", }}
       ></iframe>

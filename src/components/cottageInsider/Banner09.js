@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Avatar } from "@material-tailwind/react";
-import img1 from "../cottageInsider/IVR_09_1BHK/OuterView/ov1.webp";
-import img2 from "../cottageInsider/IVR_09_1BHK/OuterView/ov2.webp";
-import img3 from "../cottageInsider/IVR_09_1BHK/OuterView/ov3.webp";
-import img4 from "../cottageInsider/IVR_09_1BHK/OuterView/ov4.webp";
-import img5 from "../cottageInsider/IVR_09_1BHK/OuterView/ov5.webp";
+import img1 from "../cottageInsider/IVR_09_1BHK/OuterView/ov1.png";
+import img2 from "../cottageInsider/IVR_09_1BHK/OuterView/ov2.png";
+import img3 from "../cottageInsider/IVR_09_1BHK/OuterView/ov3.png";
+import img4 from "../cottageInsider/IVR_09_1BHK/OuterView/ov4.png";
+
 
 function Banner09() {
   const images = [
@@ -15,7 +15,7 @@ function Banner09() {
     { src: img2, alt: "Front view of the 1BHK cottage" },
     { src: img3, alt: "Side view showing the entrance of the cottage" },
     { src: img4, alt: "Cottage with surrounding trees and greenery" },
-    { src: img5, alt: "Scenic view from the cottage" }
+
   ];
 
   const settings = {

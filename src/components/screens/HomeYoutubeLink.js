@@ -4,7 +4,7 @@ const HomeYoutubeLink = () => {
   return (
     <div>
         <section className="py-5 flex flex-col justify-center items-center mt-0 pb-5 bg-cover md:bg-opacity-90 text-[#d2d2b4] ">
-        <h3 className="w-fit mx-auto text-2xl md:text-4xl tracking-widest font-berkshire text-center py-10">
+        <h3 className="w-fit mx-auto text-2xl md:text-4xl tracking-widest font-merriweather text-center py-10">
           Walk Through
         </h3>
 

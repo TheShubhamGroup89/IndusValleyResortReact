@@ -18,10 +18,10 @@ function Testimonials() {
   };
   return (
     <div className="w-full text-[#d2d2b4]  bg-cover md:bg-opacity-80 py-5 md:py-10"  >
-      <h3 className="text-xl md:text-3xl text-center  font-berkshire">
+      <h3 className="text-xl md:text-3xl text-center  font-merriweather">
         Testimonial
       </h3>
-      <h3 className="text-2xl md:text-4xl text-center py-5  font-berkshire">
+      <h3 className="text-2xl md:text-4xl text-center py-5  font-merriweather">
         What Guests Say?
       </h3>
       <div className=" md:p-5 md:mx-14 bg-[#d2d2b4] text-[#40392d]   bg-opacity-90">

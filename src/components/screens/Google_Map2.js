@@ -14,7 +14,7 @@ function Google_Map2({ google_map }) {
         data-vc-stretch-content="true"
         className="contact_map row-fluid no-padd margin-lg-115t margin-sm-50t no-padd md:bg-[#d2d2b4] text-[#d2d2b4] md:text-[#40392d]  md:bg-opacity-80 relative box-border"
       >
-        <h3 className="w-fit mx-auto rounded-2xl text-2xl md:text-4xl md:mt-10 md:py-10 font-berkshire text-center tracking-widest bg-opacity-20 p-5">
+        <h3 className="w-fit mx-auto rounded-2xl text-2xl md:text-4xl md:mt-10 md:py-10 font-merriweather text-center tracking-widest bg-opacity-20 p-5">
           Project Location Advantage
         </h3>
         <div className="md:px-10 pb-10 md:mx-14  flex justify-center">

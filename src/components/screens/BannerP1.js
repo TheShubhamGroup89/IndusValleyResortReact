@@ -22,10 +22,10 @@ const BannerP1 = () => {
       className="min-h-[400px] bg-cover bg-center flex justify-center items-center p-5"
       style={{ backgroundImage: `url(${imageUrls[backgroundIndex]})` }}
     >
-      {/* <h1 className=" text-white text-2xl md:text-6xl font-french-canon bg-black bg-opacity-45 p-2 text-center md:p-4 rounded-xl ">
+      {/* <h1 className=" text-white text-2xl md:text-6xl font-merriweather bg-black bg-opacity-45 p-2 text-center md:p-4 rounded-xl ">
       RESORT IN MUKTESHWAR NAINITAL     
         </h1> */}
-        <h1 className=" text-white text-xl md:text-4xl font-french-canon p-2 text-center md:p-4 rounded-xl ">
+        <h1 className=" text-white text-xl md:text-4xl font-merriweather p-2 text-center md:p-4 rounded-xl ">
         Explore Our Cottages And Apartments for Stay in Mukteshwar, Nainital  
         </h1>
         {/* <TypeAnimation className=" text-yellow-200 text-center  text-2xl md:text-4xl font-extrabold font-times"

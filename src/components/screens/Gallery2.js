@@ -107,15 +107,15 @@ function Gallery2() {
       <BookNowBanner />
       <div className="flex flex-col justify-center items-center py-5  bg-[#d2d2b4] bg-cover bg-opacity-80 text-[#40392d] ">
         <div className="flex flex-col md:flex-row pt-5 lg:pt-10 justify-center items-center  text-[#40392d] ">
-          <div className="w-fit mx-auto md:mx-0 text-2xl md:text-4xl font-serif text-center px-3">
+          <div className="w-fit mx-auto md:mx-0 text-2xl md:text-4xl font-merriweather text-center px-3">
             THE GALLERY :
           </div>
-          <div className="w-fit mx-auto md:mx-0 text-2xl md:text-4xl font-serif text-center px-3 md:pl-0">
+          <div className="w-fit mx-auto md:mx-0 text-2xl md:text-4xl font-merriweather text-center px-3 md:pl-0">
             ORIGINAL SITE PICS
           </div>
         </div>
         <img className="w-96 md:w-[700px]" src={line} alt="underline" />
-        <h1 className="w-fit  mx-auto text-sm md:text-xl font-serif text-center px-3">
+        <h1 className="w-fit  mx-auto text-sm md:text-xl font-merriweather text-center px-3">
           (HOMESTAY IN UTTARAKHAND HILLS)
         </h1>
       </div>
@@ -152,7 +152,7 @@ function Gallery2() {
           onClick={closeFullscreen}
         >
           <button
-            className="absolute bottom-28 left-20 text-black bg-white font-semibold text-sm md:text-xl font-serif m-3 p-3 md:p-4 my-auto md:mr-8 md:px-8 rounded-xl hover:bg-green-300 hover:text-black hover:font-bold focus:outline-none"
+            className="absolute bottom-28 left-20 text-black bg-white font-semibold text-sm md:text-xl font-merriweather m-3 p-3 md:p-4 my-auto md:mr-8 md:px-8 rounded-xl hover:bg-green-300 hover:text-black hover:font-bold focus:outline-none"
             onClick={(e) => {
               e.stopPropagation();
               showPreviousImage();
@@ -161,7 +161,7 @@ function Gallery2() {
             Prev
           </button>
           <button
-            className="absolute bottom-28 right-20 text-black bg-white font-semibold text-sm md:text-xl font-serif m-3 p-3 md:p-4 my-auto md:mr-8 md:px-8 rounded-xl hover:bg-green-300 hover:text-black hover:font-bold focus:outline-none"
+            className="absolute bottom-28 right-20 text-black bg-white font-semibold text-sm md:text-xl font-merriweather m-3 p-3 md:p-4 my-auto md:mr-8 md:px-8 rounded-xl hover:bg-green-300 hover:text-black hover:font-bold focus:outline-none"
             onClick={(e) => {
               e.stopPropagation();
               showNextImage();
